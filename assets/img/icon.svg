@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Maxieri">
+  <rect width="512" height="512" rx="96" fill="#081a2f"/>
+  <path fill="#c8a24a" d="M104 138h78l74 143 74-143h78v236h-62V238l-68 136h-44l-68-136v136h-62V138Z"/>
+  <circle cx="256" cy="410" r="28" fill="#f0d98b"/>
+</svg>

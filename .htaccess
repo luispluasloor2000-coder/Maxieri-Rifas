@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteRule ^rifa/([0-9]+)/numero/([0-9]+)/?$ public/number.php?raffle_id=$1&number=$2 [L,QSA]
+RewriteRule ^rifa/([0-9]+)/?$ public/raffle.php?id=$1 [L,QSA]
+
+AddType application/manifest+json .webmanifest
+
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

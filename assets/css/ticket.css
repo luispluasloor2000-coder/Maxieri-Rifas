@@ -1,0 +1,67 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: #f4f4f4;
+    color: #111;
+    font-family: Arial, sans-serif;
+}
+.ticket {
+    width: 58mm;
+    min-height: 160mm;
+    margin: 10px auto;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    border: 1px dashed #999;
+}
+.logo {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+h1 {
+    margin: 8px 0;
+    font-size: 16px;
+}
+.prize {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+.ticket-number {
+    margin: 12px 0;
+    border: 2px solid #111;
+    font-size: 42px;
+    font-weight: 900;
+}
+img {
+    width: 38mm;
+    height: 38mm;
+}
+dl {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 12px;
+}
+dt {
+    font-weight: 700;
+}
+dd {
+    margin: 0 0 6px;
+}
+small {
+    display: block;
+    overflow-wrap: anywhere;
+    font-size: 9px;
+}
+.print-button {
+    display: block;
+    margin: 12px auto;
+    padding: 10px 16px;
+}
+@media print {
+    body { background: #fff; }
+    .ticket { margin: 0; border: 0; }
+    .print-button { display: none; }
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "MAXIERI RIFAS",
+  "short_name": "Maxieri",
+  "description": "Sistema de rifas instalable para administrar ventas desde Android.",
+  "start_url": "/admin/index.php",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#081a2f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/img/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
